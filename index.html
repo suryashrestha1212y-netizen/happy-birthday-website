@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff4f6">
+  <title>Happy Birthday Sabina</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Back to top"><span class="brand-mark">✿</span> a little surprise</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#note">A note</a>
+      <a href="#wishes">Wishes</a>
+      <a href="#cake">The cake</a>
+      <a href="#ending">One last thing</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="hero-content">
+        <!-- <p class="eyebrow"><span></span> a small corner of the internet, made with care</p> -->
+        <h1>Today is all<br>about <em>you Sabina</em></h1>
+        <p class="hero-copy">A little birthday page with a few kind words and a whole lot of good wishes</p>
+        <a class="primary-btn" href="#note">Open your birthday note <span>↘</span></a>
+        <p class="tiny-note">Made especially for your special day ♡</p>
+      </div>
+      <div class="hero-art" aria-label="Decorative birthday illustration">
+        <div class="sun-disc"></div>
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="flower flower-a">✿</div><div class="flower flower-b">✽</div>
+        <div class="spark spark-a">✧</div><div class="spark spark-b">✦</div>
+        <div class="round-card"><span class="round-top">A DAY TO</span><strong>celebrate</strong><span class="round-bottom">YOU · YOUR WAY</span></div>
+      </div>
+      <div class="scroll-cue">SCROLL A LITTLE <span>↓</span></div>
+    </section>
+
+    <section class="intro section">
+      <div class="section-kicker">01 / A LITTLE HELLO</div>
+      <div class="intro-grid">
+        <h2>Some days<br>deserve a little<br><em>extra happiness</em></h2>
+        <div class="intro-copy">
+          <p>And today is one of those days so here's a tiny surprise made just to send a smile your way</p>
+          <p>No big speech No fancy reason just a simple reminder that you deserve good things today and every day.</p>
+          <span class="handwritten">Hope this makes you smile ♡</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="note-section section" id="note">
+      <div class="section-kicker">02 / A NOTE FOR YOU</div>
+      <div class="letter-wrap">
+        <div class="letter-stamp">with<br>care <span>♡</span></div>
+        <article class="letter">
+          <p class="letter-date">A LITTLE BIRTHDAY MESSAGE</p>
+          <h2>Happy Birthday Sabina <span>🎂</span></h2>
+          <div class="letter-body">
+            <p>Aaja ko din mero lagi pani special xa kina bhane aaja ko din tapai yo duniya ma aaunu bhayeko thiyo</p>
+            <p>tapai sadhai khusi rahanu tapai ko harek sapana pura hos ra jindagi ma kahile pani khusi ko kami nahos</p>
+            <p>thank you for being someone I can talk to and share my kura with hamro kura sadhai yestai ramailo rahos</p>
+            <p>Once again Happy Birthday 🥺❤️</p>
+          </div>
+          <div class="signature">A little birthday wish just for you <span>♡</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wishes-section section" id="wishes">
+      <div class="section-kicker">03 / GOOD THINGS AHEAD</div>
+      <div class="center-heading">
+        <p class="eyebrow">A few things I wish for you</p>
+        <h2>May your days be full of…</h2>
+      </div>
+      <div class="wish-grid">
+        <article class="wish-card wish-pink"><div class="wish-icon">☀</div><h3>Happiness</h3><p>May you find little reasons to smile, even on ordinary days.</p><span>01</span></article>
+        <article class="wish-card wish-cream"><div class="wish-icon">✧</div><h3>Beautiful dreams</h3><p>May the things you quietly hope for slowly find their way to you.</p><span>02</span></article>
+        <article class="wish-card wish-lilac"><div class="wish-icon">♡</div><h3>Peace & love</h3><p>May you always feel appreciated, supported, and at peace.</p><span>03</span></article>
+      </div>
+    </section>
+
+    <section class="cake-section section" id="cake">
+      <div class="section-kicker">04 / BIRTHDAY TRADITION</div>
+      <div class="cake-layout">
+        <div class="cake-copy">
+          <p class="eyebrow">Make a little wish</p>
+          <h2>It's not a birthday<br>without <em>cake</em></h2>
+          <p>Here's a tiny virtual cake for you make a wish blow out the candles and then cut yourself a slice</p>
+          <div class="cake-actions">
+            <button class="primary-btn" id="blowBtn">Blow out candles ✨</button>
+            <button class="secondary-btn" id="cutBtn" disabled>Cut the cake 🍰</button>
+            <button class="text-btn" id="resetCake">Start again ↺</button>
+          </div>
+          <p class="status" id="cakeStatus" aria-live="polite">First make a wish and blow out the candles.</p>
+        </div>
+        <div class="cake-stage">
+          <div class="cake-sparkles">✦　✧　✦</div>
+          <div class="cake">
+            <div class="candles">
+              <div class="candle"><i class="flame"></i></div>
+              <div class="candle"><i class="flame"></i></div>
+              <div class="candle"><i class="flame"></i></div>
+            </div>
+            <div class="icing"><span>♡</span><span>✿</span><span>♡</span></div>
+            <div class="cake-top"></div>
+            <div class="cake-body"><div class="cream-line"></div><div class="cream-dots">•　•　•　•　•</div></div>
+            <div class="cake-plate"></div>
+            <div class="cake-slice"></div>
+          </div>
+          <div class="cake-caption">A slice of happiness just for you</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ending section" id="ending">
+      <div class="ending-decor">✿　✧　♡　✧　✿</div>
+      <p class="eyebrow">05 / BEFORE YOU GO</p>
+      <h2>Keep smiling<br><em>Keep being you</em></h2>
+      <p class="ending-copy">I hope this new year of your life brings you kind people, peaceful moments, exciting little adventures and plenty of reasons to smile</p>
+      <button class="primary-btn" id="surpriseBtn">One last little surprise ♡</button>
+      <div class="surprise-message" id="surpriseMessage" hidden>
+        <span>♡</span>
+        <p>And that's it just a little page to say: I hope you have a really lovely birthday</p>
+      </div>
+      <p class="final-line">Happy Birthday once again Sabina 🎀</p>
+    </section>
+  </main>
+
+  <footer><span>made with a little care</span><span>♡</span><a href="#home">Back to top ↑</a></footer>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
